@@ -5,7 +5,7 @@ import (
 	"google.golang.org/grpc"
 	"log"
 	"net"
-	pb "golang-shippy/p1/consignment-service/proto/consignment"
+	pb "golang-shippy/consignment-service/proto/consignment"
 )
 
 const (
