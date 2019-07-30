@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
-	pb "shippy/p1/consignment-service/proto/consignment"
+	pb "golang-shippy/p1/consignment-service/proto/consignment"
 )
 
 const (
