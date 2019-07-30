@@ -62,6 +62,8 @@ func main() {
 	// 新货物是否托运成功
 	//log.Printf("created: %t", resp.Created)
 
+
+
 	// 列出目前所有托运的货物
 	resp, err = client.GetConsignments(context.Background(), &pb.GetRequest{})
 	if err != nil {
